@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.Navbar {
+  background-color: red;
+  bottom:0%;
+  height: 10%;
+  min-height: 50px;
+  position: fixed; 
+  width:100%;
+}
+
+.Navbar button {
+  background-color: white;
+  border: 5px solid black;
+  height: 100%;
+  width: 50%;
+}
+
+.Navbar #search-button {
+  border-right-width: 2.5px;
+}
+
+.Navbar #profile-button {
+  border-left-width: 2.5px;
+}
